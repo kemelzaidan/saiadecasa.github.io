@@ -323,6 +323,7 @@ footer a {
 footer a:hover {
   color: #444;
 }
+small{font-size:12px;}
 
 /* MISC */
 .clearfix:after {
@@ -336,6 +337,11 @@ footer a:hover {
 .clearfix {display: inline-block;}
 * html .clearfix {height: 1%;}
 .clearfix {display: block;}
+
+/* SaiaDeCasa Maps */
+.sdc_maps iframe {
+  float: left;
+}
 
 /* #Media Queries
 ================================================== */
@@ -369,3 +375,17 @@ footer a:hover {
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) {}
+
+
+/* #FontAwesome links
+========================= */
+ 
+.awesome-link:before {
+    content: "\f0c1"; 
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    padding-right: 0.5em;
+    color: #000;
+}

@@ -1,17 +1,25 @@
 [
     {
-        "name": "event 1 name",
-        "description": "event 1 description",
+        "name": "PHPSP + Season especial de aniversário",
+        "author": "Name Author <mail@author.com.br> (http://author.com.br/)",
+        "link": {
+            "url": "http://www.meetup.com/php-sp/events/188952422/",
+            "title": "Meetup do PHPSP"
+        }, 
         "details": [
-            {"title":"vai la", "text": "vai ser legal"}
-        ]
-    },
-
-    {
-        "name": "event 2 name",
-        "description": "event 2 description",
-        "details": [
-            {"title":"vai la", "text": "vai ser legal"}
-        ]
+            {
+                "title":"Data", 
+                "text": "24 de junho"
+            },
+            {
+                "title": "Local",
+                "text": "Season Treinamentos"
+            },
+            {
+                "title": "Endereço",
+                "text": "Avenida Bernardino de Campos, 327, CJ 92 - Paraíso, São Paulo"
+            }
+        ],
+        "map": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3656.8425749657!2d-46.64203959999999!3d-23.5740968!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce599743676b87%3A0x11c6e62611b3cdd1!2sAvenida+Bernardino+de+Campos%2C+327+-+Para%C3%ADso!5e0!3m2!1sen!2s!4v1402921875428"
     }
 ]
